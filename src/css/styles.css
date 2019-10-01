@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor{
+    width: 80%;
+    margin:0 auto;
+}
+.centrado{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fitness-card{
+    min-height: 100px;
+    width: 45%;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-size: 100%;
+}
+.fitness-card-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.info-image{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    position: relative;
+    top: 7px;
+}
+.info-exercise{
+    width: 50%;
+}
+.info-exercise h1{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+.info-exercise p{
+    margin: 5px;
+    font-size: 1.1rem;
+}
+.addexercise{
+    margin: 30px;
+}
+.formulario{
+    width: 40%;
+    padding: 30px;
+}
+.form-group{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    width: 100%;
+    border: none;
+    margin: 0 10px;
+}
+.row-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-2 .form-group{
+    width: 48%;
+    margin: 0;
+}
+.btn{
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.btn-primary{
+    background-color: #2F80ED;
+}
+.btn-trans{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding: 3px 6px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.btn-trans:hover{
+    cursor: pointer;
+}
